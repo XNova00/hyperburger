@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import Navbar from "./components/navBar";
 import { BannerSeparator } from "./components/BannerSeparator";
+import { BestSection } from "./components/BestSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <BannerSeparator />
+      <BestSection />
       <Footer />
     </>
   );

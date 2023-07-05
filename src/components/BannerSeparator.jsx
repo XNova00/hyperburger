@@ -11,15 +11,19 @@ export const BannerSeparator = () => {
         },
       }}
     >
-      <Paper>
-        {[...Array(5)].map((_, index) => (
+      <Paper
+        sx={{
+          display: "inline-flex",
+          alignItems: "center",
+        }}
+      >
+        {[...Array(9)].map((_, index) => (
           <Typography
             key={index}
             variant="body4"
             sx={{
-              display: "inline-flex",
-              alignItems: "center",
-              color: "red",
+              marginRight: "auto",
+              color: "#010101",
             }}
           >
             TAKE A BITE
