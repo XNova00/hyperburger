@@ -1,6 +1,6 @@
 import { Box, Paper } from "@mui/material";
 
-const CustFooterBar = () => {
+const Footer = () => {
   return (
     <Box
       sx={{
@@ -22,4 +22,4 @@ const CustFooterBar = () => {
   );
 };
 
-export default CustFooterBar;
+export default Footer;

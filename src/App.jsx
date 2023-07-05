@@ -1,14 +1,16 @@
 import "./App.css";
-import CustAppBar from "./components/CustAppBar";
-import CustFooterBar from "./components/CustFooterBar";
-import CustHeroSection from "./components/CustHeroSection";
+import HeroSection from "./components/HeroSection";
+import Footer from "./components/Footer";
+import Navbar from "./components/navBar";
+import { BannerSeparator } from "./components/BannerSeparator";
 
 function App() {
   return (
     <>
-      <CustAppBar />
-      <CustHeroSection />
-      <CustFooterBar />
+      <Navbar />
+      <HeroSection />
+      <BannerSeparator />
+      <Footer />
     </>
   );
 }

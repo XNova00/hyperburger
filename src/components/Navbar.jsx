@@ -2,13 +2,13 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 
-export default function CustAppBar() {
+export default function Navbar() {
   return (
-    <Box sx={{ borderBottom: "1px solid black" }}>
+    <Box>
       <AppBar
-        position="fixed"
+        position="static"
         sx={{
-          backgroundColor: "rgba(0, 0, 0, 0.60)",
+          backgroundColor: "primary",
         }}
       >
         <Toolbar
