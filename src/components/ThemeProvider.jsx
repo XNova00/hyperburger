@@ -4,20 +4,14 @@ export const theme = createTheme({
   palette: {
     primary: {
       main: "#010101;",
-      light: "#010101;",
-      dark: "#010101;",
       contrastText: "#FFF",
     },
     secondary: {
       main: "#FFF",
-      light: "#FFF",
-      dark: "#FFF",
       contrastText: "#010101",
     },
-    tertiary: {
+    error: {
       main: "#E42433",
-      light: "#E42433",
-      dark: "#E42433",
       contrastText: "#FFF",
     },
   },
@@ -29,9 +23,8 @@ export const theme = createTheme({
       fontWeight: 400,
       lineHeight: "150%",
       textTransform: "uppercase",
-      color: "#FFF",
-      "@media (max-width:600px)": {
-        fontSize: "75px",
+      "@media (max-width:1024px)": {
+        fontSize: "100px",
         lineHeight: "100%",
       },
     },
@@ -42,7 +35,7 @@ export const theme = createTheme({
       fontWeight: 400,
       lineHeight: "150%",
       textTransform: "uppercase",
-      color: "#FFF",
+
       "@media (max-width:600px)": {
         fontSize: "32px",
         lineHeight: "90%",
@@ -54,7 +47,7 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       lineHeight: "120%",
-      color: "#E42433",
+
       "@media (max-width:600px)": {
         fontSize: "28px",
         lineHeight: "80%",
@@ -67,7 +60,7 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       lineHeight: "150%",
-      color: "#FFF",
+
       "@media (max-width:600px)": {
         lineHeight: "50%",
       },
@@ -79,7 +72,7 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 500,
       lineHeight: "150%",
-      color: "#FFF",
+
       "@media (max-width:600px)": {
         lineHeight: "50%",
       },
@@ -91,7 +84,6 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 600,
       lineHeight: "150%",
-      color: "#FFF",
       "@media (max-width:600px)": {
         lineHeight: "50%",
       },
@@ -103,7 +95,7 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 700,
       lineHeight: "150%",
-      color: "#FFF",
+
       "@media (max-width:600px)": {
         lineHeight: "120%",
       },
@@ -115,7 +107,7 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 900,
       lineHeight: "150%",
-      color: "#FFF",
+
       "@media (max-width:600px)": {
         lineHeight: "50%",
       },
@@ -128,7 +120,7 @@ export const theme = createTheme({
       fontWeight: 600,
       textTransform: "uppercase",
       "@media (max-width:600px)": {
-        fontSize: "15px",
+        fontSize: "16px",
         lineHeight: "22.5px",
       },
     },

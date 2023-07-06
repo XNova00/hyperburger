@@ -1,5 +1,6 @@
 import { Paper, Typography } from "@mui/material";
 import { text } from "../utils/Data";
+import Marquee from "react-fast-marquee";
 
 export const BannerSeparator = () => {
   return (
@@ -12,34 +13,22 @@ export const BannerSeparator = () => {
         borderRadius: 0,
       }}
     >
-      {text.map((text, index) => (
-        <Typography
-          key={index}
-          variant="body4"
-          sx={{
-            color: text.color,
-            marginRight: "auto",
-            whiteSpace: "nowrap",
-            overflow: "hidden",
-            animation: "marquee 5s linear infinite",
-          }}
-        >
-          {text.content}
-        </Typography>
-      ))}
-
-      {/* {[...Array(9)].map((_, index) => (
+      <Marquee>
+        {text.map((text, index) => (
           <Typography
             key={index}
             variant="body4"
             sx={{
-              marginRight: "auto",
-              color: "black",
+              color: text.color,
+              marginRight: "100px",
+              whiteSpace: "nowrap",
+              overflow: "hidden",
             }}
           >
-            TAKE A BITE
+            {text.content}
           </Typography>
-        ))} */}
+        ))}
+      </Marquee>
     </Paper>
   );
 };

@@ -54,3 +54,26 @@ export const text = [
     color: "#010101",
   },
 ];
+
+export const burgerPrice = [
+  {
+    images: "images/Kyota Kita.png",
+    isBig: true,
+  },
+  {
+    images: "/images/The Bentenator.png",
+    isBig: true,
+  },
+  {
+    images: "/images/Flava Fons.png",
+    isBig: false,
+  },
+  {
+    images: "/images/Triple Tirado.png",
+    isBig: false,
+  },
+  {
+    images: "/images/Raving Ruso.png",
+    isBig: false,
+  },
+];

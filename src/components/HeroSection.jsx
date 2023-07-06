@@ -10,7 +10,7 @@ const HeroSection = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
-          height: "80vh",
+          height: "60vh",
         },
       }}
     >
@@ -23,12 +23,16 @@ const HeroSection = () => {
         <Container maxWidth="lg">
           <Box
             sx={{
-              marginBottom: "50px",
+              marginBottom: "30px",
             }}
           >
-            <Typography variant="h3">MIND BLOWING BITES!</Typography>
-            <Typography variant="h1">HYPEBURGER</Typography>
-            <Typography variant="body4">
+            <Typography variant="h3" color="error">
+              MIND BLOWING BITES!
+            </Typography>
+            <Typography variant="h1" color="secondary">
+              HYPEBURGER
+            </Typography>
+            <Typography variant="body4" color="secondary">
               By shifting from animal to plant-based meat, we can positively
               affect growing global issues such as contraints on
               <br />

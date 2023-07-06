@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/navBar";
 import { BannerSeparator } from "./components/BannerSeparator";
 import { BestSection } from "./components/BestSection";
+import { FeaturedBurger } from "./components/FeaturedBurger";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <BannerSeparator />
       <BestSection />
+      <FeaturedBurger />
       <Footer />
     </>
   );

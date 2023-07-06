@@ -32,26 +32,6 @@ export default function Navbar() {
               }}
             />
           </Box>
-          {/* <Box>
-            <List sx={{ display: "flex" }}>
-              {navItems.map((item) => (
-                <ListItem key={item} disablePadding>
-                  <ListItemButton
-                    sx={{
-                      textAlign: "center",
-                      "&:hover": {
-                        textDecoration: "none",
-                        cursor: "pointer",
-                        color: "#FF014F",
-                      },
-                    }}
-                  >
-                    <ListItemText primary={item.name} />
-                  </ListItemButton>
-                </ListItem>
-              ))}
-            </List>
-          </Box> */}
         </Toolbar>
       </AppBar>
     </Box>
