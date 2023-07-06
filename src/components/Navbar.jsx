@@ -4,7 +4,11 @@ import Toolbar from "@mui/material/Toolbar";
 
 export default function Navbar() {
   return (
-    <Box>
+    <Box
+      sx={{
+        width: "100%",
+      }}
+    >
       <AppBar
         position="static"
         sx={{

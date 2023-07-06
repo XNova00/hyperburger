@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { ArrowRight } from "./CustIconSvg";
+import { KeyboardArrowRight } from "@mui/icons-material";
 
 export const HeroButton = ({ variant, children, color }) => {
   return (
@@ -19,7 +20,7 @@ export const HeroButton = ({ variant, children, color }) => {
 
 export const CarouselTextButton = ({ variant, children, color }) => {
   return (
-    <Button variant={variant} color={color}>
+    <Button variant={variant} color={color} endIcon={<KeyboardArrowRight />}>
       {children}
     </Button>
   );

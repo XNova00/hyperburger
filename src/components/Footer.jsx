@@ -8,7 +8,7 @@ const Footer = () => {
           backgroundImage: 'url("/images/Footer Bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
-          width: "100vw",
+          width: "100%",
           height: "82vh",
         },
       }}

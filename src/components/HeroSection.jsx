@@ -9,19 +9,18 @@ const HeroSection = () => {
           backgroundImage: 'url("/images/Burger Img with Opacity.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
-          width: "100vw",
-          height: "100vh",
+          width: "100%",
+          height: "80vh",
         },
       }}
     >
       <Paper
         sx={{
-          display: "flex",
-          alignItems: "center",
+          padding: "120px 0",
           borderRadius: 0,
         }}
       >
-        <Container maxWidth="xl">
+        <Container maxWidth="lg">
           <Box
             sx={{
               marginBottom: "50px",
@@ -30,7 +29,7 @@ const HeroSection = () => {
             <Typography variant="h3">MIND BLOWING BITES!</Typography>
             <Typography variant="h1">HYPEBURGER</Typography>
             <Typography variant="body4">
-              By shifting from animal tp plant-based meat, we can positively
+              By shifting from animal to plant-based meat, we can positively
               affect growing global issues such as contraints on
               <br />
               natural resources and animal welfare. After all, the positive
