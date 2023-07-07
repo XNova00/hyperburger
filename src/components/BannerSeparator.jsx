@@ -13,14 +13,14 @@ export const BannerSeparator = () => {
         borderRadius: 0,
       }}
     >
-      <Marquee>
+      <Marquee autoFill="true">
         {text.map((text, index) => (
           <Typography
             key={index}
             variant="body4"
             sx={{
+              margin: "0 30px",
               color: text.color,
-              marginRight: "100px",
               whiteSpace: "nowrap",
               overflow: "hidden",
             }}

@@ -3,27 +3,24 @@ import {
   Container,
   ImageList,
   ImageListItem,
-  Paper,
   Typography,
 } from "@mui/material";
 import { burgerPrice } from "../utils/Data";
 
-export const FeaturedBurger = () => {
+export const FeaturedSection = () => {
   return (
     <Box
       sx={{
         backgroundImage: 'url("/images/BestBurgerBG.png")',
         backgroundSize: "cover",
-        backgroundPosition: "center",
         width: "100%",
-        height: "100vh",
         borderTop: "4px dashed #fff",
         borderBottom: "4px dashed #fff",
         padding: "120px 0",
       }}
     >
       <Container
-        maxWidth="xl"
+        maxWidth="lg"
         sx={{
           marginBottom: "30px",
         }}
@@ -37,15 +34,18 @@ export const FeaturedBurger = () => {
       </Container>
       {/* Big */}
       <Container
-        maxWidth="xl"
+        maxWidth="lg"
         sx={{
-          display: "flex",
-          gap: "30px",
           width: "100%",
+          marginTop: "30px",
         }}
       >
-        <Box sx={{ overflowY: "scroll" }}>
-          <ImageList cols={2} gap={20}>
+        <Box
+          sx={{
+            overflowY: "scroll",
+          }}
+        >
+          <ImageList cols={3} gap={20}>
             {burgerPrice
               .filter((item) => item.isBig == true)
               .map((item) => (
@@ -66,7 +66,7 @@ export const FeaturedBurger = () => {
       </Container>
       {/* Small */}
       <Container
-        maxWidth="xl"
+        maxWidth="lg"
         sx={{
           width: "100%",
           marginTop: "30px",

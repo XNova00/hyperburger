@@ -4,7 +4,8 @@ import Footer from "./components/Footer";
 import Navbar from "./components/navBar";
 import { BannerSeparator } from "./components/BannerSeparator";
 import { BestSection } from "./components/BestSection";
-import { FeaturedBurger } from "./components/FeaturedBurger";
+import { FeaturedSection } from "./components/FeaturedSection";
+import { CTASection } from "./components/CTASection";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <HeroSection />
       <BannerSeparator />
       <BestSection />
-      <FeaturedBurger />
+      <FeaturedSection />
+      <CTASection />
       <Footer />
     </>
   );
