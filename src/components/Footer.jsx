@@ -1,4 +1,4 @@
-import { Box, Paper } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
@@ -9,15 +9,23 @@ const Footer = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
-          height: "82vh",
+          display: "flex",
+          justifyContent: "center",
+          padding: "120px 0",
         },
       }}
     >
-      <Paper
-        sx={{
-          borderRadius: 0,
-        }}
-      ></Paper>
+      <Box>
+        <Typography
+          variant="h2"
+          color="secondary"
+          sx={{
+            textAlign: "center",
+          }}
+        >
+          HYPEBURGER
+        </Typography>
+      </Box>
     </Box>
   );
 };

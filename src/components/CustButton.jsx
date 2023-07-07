@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Divider } from "@mui/material";
 import { ArrowRight } from "./CustIconSvg";
 import { KeyboardArrowRight } from "@mui/icons-material";
 
